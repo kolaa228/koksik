@@ -1,0 +1,44 @@
+nav{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+    background-color: #05756e;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.flex{
+    display: flex;
+}
+
+.icons{
+    gap:10px
+}
+
+@media screen and (max-width:660px) {
+    nav{
+        height: 300px;
+        flex-direction: column;
+    }
+}

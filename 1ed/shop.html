@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./shop.css" />
+    <link rel="stylesheet" href="nav.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kelly Slab:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-3">
+      <nav>
+        <img
+          class="logo"
+          alt=""
+          src="./public/black-and-white-collection-6@2x.png"
+        />
+
+        <div class="nav-links">
+          <a href="/index.html">HOME</a>
+          <a href="/about.html">ABOUT</a>
+          <a href="/shop.html">SHOP</a>
+          <a href="/contact.html">CONTACT</a>
+          <a href="/login.html">LOGIN</a>
+        </div>
+
+        
+          <div class="icons flex">
+
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.0555 14.8145L12.7477 11.5066C13.544 10.4465 13.9739 9.15598 13.9725 7.83C13.9725 4.44305 11.217 1.6875 7.83 1.6875C4.44305 1.6875 1.6875 4.44305 1.6875 7.83C1.6875 11.217 4.44305 13.9725 7.83 13.9725C9.15598 13.9739 10.4465 13.544 11.5066 12.7477L14.8145 16.0555C14.9819 16.2052 15.2003 16.2851 15.4248 16.2788C15.6493 16.2725 15.8629 16.1805 16.0217 16.0217C16.1805 15.8629 16.2725 15.6493 16.2788 15.4248C16.2851 15.2003 16.2052 14.9819 16.0555 14.8145ZM3.4425 7.83C3.4425 6.96223 3.69982 6.11396 4.18193 5.39244C4.66403 4.67092 5.34927 4.10856 6.15098 3.77648C6.95269 3.4444 7.83487 3.35751 8.68596 3.5268C9.53705 3.6961 10.3188 4.11397 10.9324 4.72757C11.546 5.34117 11.9639 6.12295 12.1332 6.97404C12.3025 7.82513 12.2156 8.70731 11.8835 9.50902C11.5514 10.3107 10.9891 10.996 10.2676 11.4781C9.54604 11.9602 8.69777 12.2175 7.83 12.2175C6.66679 12.2161 5.55162 11.7534 4.72911 10.9309C3.9066 10.1084 3.4439 8.99321 3.4425 7.83Z" fill="#272727"/>
+              </svg>
+              
+
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.6943 2.27039C11.0102 1.53176 10.0546 1.125 8.99996 1.125C7.93964 1.125 6.98093 1.5293 6.29996 2.26336C5.6116 3.00551 5.27621 4.01414 5.35496 5.10328C5.51105 7.25203 7.14617 9 8.99996 9C10.8537 9 12.4861 7.25238 12.6446 5.10398C12.7244 4.02469 12.3869 3.01816 11.6943 2.27039ZM15.1875 16.875H2.81246C2.65048 16.8771 2.49007 16.8431 2.3429 16.7754C2.19573 16.7077 2.06549 16.6081 1.96168 16.4837C1.73316 16.2105 1.64105 15.8375 1.70925 15.4603C2.00597 13.8143 2.93199 12.4316 4.38746 11.4609C5.6805 10.5993 7.31843 10.125 8.99996 10.125C10.6815 10.125 12.3194 10.5996 13.6125 11.4609C15.0679 12.4312 15.9939 13.8139 16.2907 15.46C16.3589 15.8372 16.2668 16.2102 16.0382 16.4834C15.9345 16.6078 15.8042 16.7075 15.6571 16.7752C15.5099 16.843 15.3495 16.8771 15.1875 16.875Z" fill="#272727"/>
+                </svg>
+
+            <div class="cart-icon flex">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.1875 15.75C6.80882 15.75 7.3125 15.2463 7.3125 14.625C7.3125 14.0037 6.80882 13.5 6.1875 13.5C5.56618 13.5 5.0625 14.0037 5.0625 14.625C5.0625 15.2463 5.56618 15.75 6.1875 15.75Z" fill="#272727"/>
+                <path d="M14.0625 15.75C14.6838 15.75 15.1875 15.2463 15.1875 14.625C15.1875 14.0037 14.6838 13.5 14.0625 13.5C13.4412 13.5 12.9375 14.0037 12.9375 14.625C12.9375 15.2463 13.4412 15.75 14.0625 15.75Z" fill="#272727"/>
+                <path d="M16.0594 4.24617C15.9803 4.14951 15.8808 4.07166 15.7679 4.01827C15.6551 3.96487 15.5317 3.93729 15.4069 3.9375H4.70707L4.49156 2.71477C4.46858 2.58452 4.40045 2.46654 4.29912 2.38154C4.19779 2.29655 4.06976 2.24997 3.9375 2.25H1.6875C1.53832 2.25 1.39524 2.30926 1.28975 2.41475C1.18426 2.52024 1.125 2.66332 1.125 2.8125C1.125 2.96168 1.18426 3.10476 1.28975 3.21025C1.39524 3.31574 1.53832 3.375 1.6875 3.375H3.4657L5.07094 12.4727C5.09392 12.603 5.16205 12.721 5.26338 12.806C5.36471 12.891 5.49274 12.9375 5.625 12.9375H14.625C14.7742 12.9375 14.9173 12.8782 15.0227 12.7727C15.1282 12.6673 15.1875 12.5242 15.1875 12.375C15.1875 12.2258 15.1282 12.0827 15.0227 11.9773C14.9173 11.8718 14.7742 11.8125 14.625 11.8125H6.0968L5.89852 10.6875H14.3944C14.5894 10.6873 14.7784 10.6196 14.9294 10.496C15.0803 10.3725 15.1839 10.2005 15.2227 10.0093L16.2352 4.94684C16.2596 4.82432 16.2564 4.69791 16.226 4.57674C16.1956 4.45557 16.1387 4.34266 16.0594 4.24617Z" fill="#272727"/>
+                </svg>
+                
+              <div class="cart-count">(0)</div>
+            </div>
+        </div>
+      </nav>
+      </div>
+      <main class="desktop-3-inner">
+        <section class="frame-section">
+          <div class="frame-parent1">
+            <div class="frame-parent2">
+              <div class="frame-parent3">
+                <div class="frame-parent4">
+                  <div class="results-and-sorting-parent">
+                    <div class="results-and-sorting">
+                      <div class="showing-19-of">Showing 1–9 of 55 results</div>
+                      <div class="default-sorting-parent">
+                        <div class="default-sorting">Default sorting</div>
+                        <div class="laangle-down-wrapper">
+                          <img
+                            class="laangle-down-icon"
+                            alt=""
+                            src="./public/laangledown.svg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="frame-parent5">
+                      <div class="frame-parent6">
+                        <div class="kuiye-chen-nuogfo4pude-unsplas-group">
+                          <img
+                            class="kuiye-chen-nuogfo4pude-unsplas-icon2"
+                            alt=""
+                            src="./public/kuiyechennuogfo4pudeunsplash@2x.png"
+                          />
+
+                          <button class="hover-card-btn1">
+                            <div class="add-to-cart1">Add to cart</div>
+                            <div class="ioncart-container">
+                              <img
+                                class="ioncart-icon4"
+                                alt=""
+                                src="./public/ioncart-1.svg"
+                              />
+                            </div>
+                          </button>
+                        </div>
+                        <div class="text25">
+                          <div class="yums">yums</div>
+                          <div class="wrapper1">
+                            <div class="div41">$980</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pexels-soulful-pizza-6753223-group">
+                        <img
+                          class="pexels-soulful-pizza-6753223-icon2"
+                          loading="lazy"
+                          alt=""
+                          src="./public/pexelssoulfulpizza67532231@2x.png"
+                        />
+
+                        <div class="text26">
+                          <div class="uno">1uno</div>
+                          <div class="wrapper2">
+                            <div class="div42">$1100</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="daniel-korpai-hbtkibummbi-unsp-group">
+                        <img
+                          class="daniel-korpai-hbtkibummbi-unsp-icon3"
+                          loading="lazy"
+                          alt=""
+                          src="./public/danielkorpaihbtkibummbiunsplash1@2x.png"
+                        />
+
+                        <div class="text27">
+                          <div class="yon">yon</div>
+                          <div class="wrapper3">
+                            <div class="div43">$780</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="items1">
+                    <div class="div44">
+                      <img
+                        class="matthew-brodeur-osvr0wgyubs-un-icon4"
+                        loading="lazy"
+                        alt=""
+                        src="./public/matthewbrodeurosvr0wgyubsunsplash1@2x.png"
+                      />
+
+                      <div class="text28">
+                        <div class="fon">fon</div>
+                        <div class="div45">$870</div>
+                      </div>
+                    </div>
+                    <div class="div46">
+                      <img
+                        class="daniel-korpai-hbtkibummbi-unsp-icon4"
+                        loading="lazy"
+                        alt=""
+                        src="./public/danielkorpaihbtkibummbiunsplash-11@2x.png"
+                      />
+
+                      <div class="text29">
+                        <div class="guvy">guvy</div>
+                        <div class="div47">$680</div>
+                      </div>
+                    </div>
+                    <div class="div48">
+                      <img
+                        class="kuiye-chen-nuogfo4pude-unsplas-icon3"
+                        loading="lazy"
+                        alt=""
+                        src="./public/kuiyechennuogfo4pudeunsplash1@2x.png"
+                      />
+
+                      <div class="text30">
+                        <div class="waasseaa">waasseaa</div>
+                        <div class="div49">$750</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="shop-sidebar">
+                  <div class="search">
+                    <div class="input2">
+                      <input class="search1" placeholder="Search" type="text" />
+
+                      <div class="btn4">
+                        <img
+                          class="ionsearch-icon3"
+                          alt=""
+                          src="./public/ionsearch-1.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="browse-by-categories">
+                    <div class="categories">categories</div>
+                    <div class="category-btn">
+                      <div class="all">All</div>
+                      <div class="cleaning">Cleaning</div>
+                      <div class="fridges">Fridges</div>
+                      <div class="coffee-machine">Coffee machine</div>
+                      <div class="wash-machine">Wash machine</div>
+                    </div>
+                  </div>
+                  <div class="browse-by-tags">
+                    <u class="tags">Tags</u>
+                    <div class="tags-btn">
+                      <div class="white">White</div>
+                      <div class="cheap">Cheap</div>
+                      <div class="litle">Litle</div>
+                      <div class="modern">Modern</div>
+                    </div>
+                  </div>
+                  <div class="filter-by-color">
+                    <u class="brands">Brands</u>
+                    <div class="filter-btn">
+                      <div class="daymodns">Daymodns</div>
+                      <div class="somsa">Somsa</div>
+                      <div class="ceva-scump">Ceva scump</div>
+                    </div>
+                  </div>
+                  <div class="filter-by-price">
+                    <u class="filter-by-price1">Filter by price</u>
+                    <div class="filter-btn1">
+                      <div class="less-than-10">Less than $10</div>
+                      <div class="div50">$100- $200</div>
+                      <div class="div51">$200- $300</div>
+                      <div class="div52">$300- $400</div>
+                      <div class="div53">$400- $500</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="items2">
+                <div class="div54">
+                  <img
+                    class="kuiye-chen-nuogfo4pude-unsplas-icon4"
+                    loading="lazy"
+                    alt=""
+                    src="./public/kuiyechennuogfo4pudeunsplash-1@2x.png"
+                  />
+
+                  <div class="text31">
+                    <div class="palka">palka</div>
+                    <div class="div55">$750</div>
+                  </div>
+                </div>
+                <div class="div56">
+                  <img
+                    class="pexels-soulful-pizza-6753223-icon3"
+                    loading="lazy"
+                    alt=""
+                    src="./public/pexelssoulfulpizza6753223-11@2x.png"
+                  />
+
+                  <div class="text32">
+                    <div class="vost">vost</div>
+                    <div class="div57">$650</div>
+                  </div>
+                </div>
+                <div class="div58">
+                  <img
+                    class="matthew-brodeur-osvr0wgyubs-un-icon5"
+                    loading="lazy"
+                    alt=""
+                    src="./public/matthewbrodeurosvr0wgyubsunsplash-11@2x.png"
+                  />
+
+                  <div class="text33">
+                    <div class="rover">rover</div>
+                    <div class="div59">$1500</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="frame-wrapper1">
+              <div class="vector-parent">
+                <img
+                  class="frame-inner"
+                  loading="lazy"
+                  alt=""
+                  src="./public/vector-131.svg"
+                />
+
+                <div class="wrapper4">
+                  <div class="div60">1</div>
+                </div>
+                <div class="wrapper5">
+                  <div class="div61">2</div>
+                </div>
+                <div class="wrapper6">
+                  <div class="div62">3</div>
+                </div>
+                <img
+                  class="frame-child1"
+                  loading="lazy"
+                  alt=""
+                  src="./public/vector-121.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="subscribe-us2">
+            <div class="text34">
+              <h3 class="subscribe-us-now2">Subscribe Us now</h3>
+              <div class="get-latest-news2">
+                Get latest news, updates and deals directly mailed to your
+                inbox.
+              </div>
+            </div>
+            <div class="input3">
+              <div class="your-email-address2">Your email address here</div>
+              <button class="btn5">
+                <div class="subscribe3">Subscribe</div>
+              </button>
+            </div>
+          </div>
+          <div class="title-btn-group">
+            <div class="title-btn4">
+              <h3 class="latest-posts2">Latest Posts</h3>
+              <div class="title-btn-inner1">
+                <div class="read-blogs-container">
+                  <div class="read-blogs2">Read blogs</div>
+                  <div class="rectangle-div"></div>
+                </div>
+              </div>
+            </div>
+            <div class="posts2">
+              <div class="div63">
+                <img
+                  class="david-svihovec-uyu-izpc73u-uns-icon2"
+                  loading="lazy"
+                  alt=""
+                  src="./public/davidsvihovecuyu-izpc73uunsplash@2x.png"
+                />
+
+                <div class="text35">
+                  <div class="may-20-20246">MAY 20, 2024 - Gadgets</div>
+                  <div class="get-some-cool2">
+                    Get some cool gadgets in 2023
+                  </div>
+                </div>
+              </div>
+              <div class="div64">
+                <img
+                  class="matthew-brodeur-osvr0wgyubs-un-icon6"
+                  loading="lazy"
+                  alt=""
+                  src="./public/matthewbrodeurosvr0wgyubsunsplash-2@2x.png"
+                />
+
+                <div class="text36">
+                  <div class="may-20-20247">MAY 20, 2024 - technology</div>
+                  <div class="technology-hack-you2">
+                    TECHNOLOGY HACK YOU WON’T GET
+                  </div>
+                </div>
+              </div>
+              <div class="div65">
+                <img
+                  class="eniko-kis-kslptsyaqiq-unsplash-icon2"
+                  loading="lazy"
+                  alt=""
+                  src="./public/enikokiskslptsyaqiqunsplash-1@2x.png"
+                />
+
+                <div class="text37">
+                  <div class="may-20-20248">MAY 20, 2024 - fridge</div>
+                  <div class="top-10-bigest2">
+                    toP 10 bigest fridges IN THE WORLD
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="desktop-3-child">
+        <div class="frame-parent7">
+          <div class="ministore-group">
+            <h2 class="ministore2">
+              <span>Sancho</span>
+              <span class="span2">.</span>
+            </h2>
+            <div class="info-newsletter-social2">
+              <div class="nisi-purus-vitae2">
+                Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit.
+                Gravida massa volutpat aenean odio erat nullam fringilla.
+              </div>
+              <div class="newsletter-social2">
+                <div class="social2">
+                  <img
+                    class="vector-icon6"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-1.svg"
+                  />
+
+                  <img
+                    class="vector-icon7"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-2.svg"
+                  />
+
+                  <img
+                    class="vector-icon8"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-3.svg"
+                  />
+
+                  <img
+                    class="vector-icon9"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-4.svg"
+                  />
+
+                  <img
+                    class="vector-icon10"
+                    loading="lazy"
+                    alt=""
+                    src="./public/vector-5.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="quick-links">
+            <div class="heading">
+              <div class="quick-links1">Quick links</div>
+            </div>
+            <div class="links">
+              <div class="quick-links2">
+                <a href="index.html">Home</a>
+              </div>
+              <div class="about-links">
+                <a href="about.html">About</a>
+              </div>
+              <div class="blogs-links">
+                <a href="shop.html">Shop</a>
+              </div>
+              <div class="footer-info">
+                <a href="contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="help-info4">
+            <div class="heading5">
+              <div class="help-info5">Help & info</div>
+            </div>
+            <div class="links5">
+              <div class="div71">
+                <div class="track-your-order2">Track Your Order</div>
+              </div>
+              <div class="div72">
+                <div class="returns-policies2">Returns policies</div>
+              </div>
+              <div class="div73">
+                <div class="shipping-delivery2">Shipping + Delivery</div>
+              </div>
+              <div class="div74">
+                <div class="contact-us4">Contact Us</div>
+              </div>
+              <div class="div75">
+                <div class="faqs2">Faqs</div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-us-container">
+            <div class="contact-us5">Contact us</div>
+            <div class="do-you-have-container2">
+              <p class="do-you-have2">
+                Do you have any queries or suggestions?
+              </p>
+              <p class="yourinfogmailcom1">yourinfo@gmail.com</p>
+            </div>
+            <div class="if-you-need-container2">
+              <p class="if-you-need2">
+                If you need support? Just give us a call.
+              </p>
+              <p class="p2">+55 111 222 333 44</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line2"></div>
+    </div>
+  </body>
+</html>

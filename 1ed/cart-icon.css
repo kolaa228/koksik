@@ -1,0 +1,21 @@
+#cart-icon {
+    position: relative;
+    --cart_count:"0";
+}
+
+#cart-icon::after {
+    content: var(--cart_count);
+    position: absolute;
+    top: 4px;
+    right: 4px;
+
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aliceblue;
+    border-radius: 8px;
+    font-size: 0.8em;
+}
